@@ -7,7 +7,10 @@ Ubuntu 서버의 MariaDB에 Windows의 Java 프로그램으로 원격 접속하�
 Java 21, JDBC(MariaDB Connector/J), MariaDB, Linux Ubuntu
 
 ## 구조
-Main > StudentDAO > DBConnection > JDBC 드라이버 > MariaDB
+Main → StudentDAO → DBConnection → JDBC 드라이버 → MariaDB
+
+## JDBC 드라이버
+공식 다운로드: https://mariadb.com/downloads/connectors/
 
 ## 실행 방법
 1. 서버에 DB(test)와 students 테이블 생성
